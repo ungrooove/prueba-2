@@ -1,0 +1,278 @@
+body{
+    margin: 0;
+    background-color: rgb(93, 76, 155);
+    background-image: url(img/peakpx.jpg);
+}
+
+.left-nav{
+    background-color: rgba(255, 255, 255, 0.418);
+    color: black;
+    display: flex;
+    gap: 2%;
+    padding: 7px;
+    font-family: "Roboto";
+    font-size: 15px;
+    white-space: nowrap;
+    border-radius: 10px;
+
+}
+
+.right-nav{
+    display:flex;
+    padding-left: 24.5%;
+    gap: 25px;
+
+
+}
+
+.sing-up{
+    background: rgba(221, 221, 221, 0.616);
+    border-radius: 15px;
+    white-space: nowrap;
+    padding: 12px 0 0 35px ;
+    box-sizing: border-box;
+    width: 120px;
+    height: 40px;
+    margin-top: 8px;
+    margin-left: -7px;
+}
+
+.hire{
+    box-sizing: border-box;
+    width: 120px;
+    height: 40px;
+    background: rgb(24, 23, 78);
+    padding: 12px 0 0 14px ;
+    border: 10px;
+    border-radius: 15px;
+    white-space: nowrap;
+    color: white;
+    margin-top: 8px;
+    margin-left: -5px;
+}
+
+.hire:hover{
+    background-color: rgb(46, 44, 146);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.sing-up:hover{
+    background-color:rgba(168, 168, 168, 0.404);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.log:hover{
+    cursor: pointer;
+}
+
+
+
+.letras{
+    white-space: nowrap;
+    display: flex;
+    gap: 15%;
+    padding-top: 1.5%;
+    padding-left: 1%;
+}
+
+.log{
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.logo{
+    display: flex;
+    padding-left: 27%;
+}
+
+.fondo{
+    width: 1423px;
+    height: 700px;
+}
+
+
+.categorias{
+    
+    display: flex;
+    padding-top: 6%;
+    padding-bottom: 3%;
+}
+
+.cat-letras{
+    display: flex;
+    gap: 3%;
+    padding-left: 4%;
+}
+
+.cat-cat{
+    background-color: rgba(0, 0, 0, 0.445);
+    color: white;
+    font-family: "Roboto";
+    font-size: small;
+    padding: 20px;
+    padding-left: 22px;
+    padding-bottom: 30px;
+    white-space: nowrap;
+    border-radius: 40px;
+    width: 95px;
+    height: 15px;
+}
+
+.head{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 40px;
+    padding: 0px;
+    color: white;
+    margin: 0;
+    
+    
+}
+
+.p{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 15px;
+    color: white;
+    font-family: "Roboto";
+    padding: 0 0 0 447px;
+    display: flex;
+}
+
+.cat-cat:hover{
+    background-color: rgba(0, 0, 0, 0.637);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.search{
+    width: 600px;
+    height: 50px;
+    background: white;
+    color: grey;
+    border-radius: 30px;
+    padding-left: 40px;
+    padding-top: 2px;
+    font-size: 15px;
+    font-family: "Roboto";
+    background-image: url(img/icone-loupe-gris.png);
+    background-position: 10px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    border: 0px solid white;
+    outline: none;
+
+}
+
+.content{
+    padding-left: 30%;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+
+.trend{
+    display: flex;
+    gap: 4%;
+    padding-left: 23%;
+    padding-top: 45px;
+}
+
+.trend-trend{
+    border: 1px solid rgba(255, 255, 255, 0.514);
+    padding: 17px 10px 15px 10px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.281);
+    color: rgb(255, 255, 255);
+    font-family: "Roboto";
+    font-size: 11px;
+
+}
+
+.trend-search{
+
+    font-family: "Roboto";
+    font-size: 11px;
+    color: white;
+    padding-top: 7px;
+    padding-left: 15px;
+}
+
+.discover{
+    padding-left: 25px;
+    padding-bottom: 20px;
+    padding-right: 25px;
+}
+
+.animation{
+    padding-left: 25px;
+    padding-bottom: 20px;
+    padding-right: 25px;
+}
+
+.brand{
+    padding-left: 25px;
+    padding-bottom: 20px;
+    padding-right: 25px;
+}
+
+.illust{
+    padding-left: 25px;
+    padding-bottom: 20px;
+    padding-right: 25px;
+}
+
+.mobile{
+    padding-left: 33px;
+    padding-bottom: 20px;
+    padding-right: 25px;
+}
+
+.print{
+    padding-left: 36px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+
+}
+
+.design{
+    padding-left: 25px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+}
+
+.typ{
+    padding-left: 25px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+}
+
+
+.web{
+    padding-left: 25px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+}
+
+.foot{
+    position: absolute;
+    bottom: 0;
+
+    box-sizing: content-box;
+    height: 5.5vh;
+    font-family: "Roboto";
+    text-align: left;
+    margin-top: 14vh;
+    padding: 1px 5px;
+    
+}
+
+
+
+
+
+
+
+
+
